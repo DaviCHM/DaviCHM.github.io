@@ -1,29 +1,27 @@
 # DaviCHM.github.io
 
-Portfólio pessoal de **Davi Cagliari Homem de Mello** — Ciência da Computação @ Insper · Insper Ventures · ex-pro de Valorant.
-
-## 🌐 Acesso
+Portfólio pessoal de **Davi Cagliari Homem de Mello**, estudante de Ciência da Computação no Insper (2024-2028). Ex-jogador profissional de Valorant (2021-2024, VCT).
 
 Publicado em: **https://DaviCHM.github.io**
 
-## 🗂 Estrutura
+## Estrutura
 
 | Arquivo | Descrição |
 |---------|-----------|
 | `index.html` | Conteúdo e estrutura da página |
-| `styles.css` | Estilos, tema escuro e responsividade |
-| `script.js`  | Navbar, reveal no scroll, contadores, efeito de digitação e fundo animado |
+| `styles.css` | Estilos (estética Swiss print clara, off-white, accent vermelho) e responsividade |
+| `script.js`  | Reveals on-scroll, letras interativas no hero, nav ativa e menu mobile |
+| `assets/`    | Fotos |
 
-## 🚀 Rodar localmente
+## Rodar localmente
 
-É um site estático — basta abrir o `index.html` no navegador. Ou suba um servidor local:
+É um site estático, basta abrir o `index.html` no navegador, ou:
 
 ```bash
-# Python
 python -m http.server 8000
-# depois abra http://localhost:8000
+# abra http://localhost:8000
 ```
 
-## ✏️ Editar
+## Editar
 
-Todo o conteúdo está em `index.html`. As cores e o tema ficam nas variáveis `:root` no topo de `styles.css`.
+Conteúdo em `index.html`. Cores e tipografia nas variáveis `:root` no topo de `styles.css`.
