@@ -184,7 +184,8 @@ section[id] { scroll-margin-top: 96px; }
 
 .hero__title {
   font-family: var(--display);
-  font-size: clamp(2.6rem, 9.5vw, 8.5rem);
+  /* dimensionado para a linha mais longa (HOMEM.DE.MELLO) nunca estourar */
+  font-size: clamp(2.2rem, 7.6vw, 6.8rem);
   line-height: 0.92;
   letter-spacing: -0.03em;
   text-transform: uppercase;
@@ -446,7 +447,7 @@ section[id] { scroll-margin-top: 96px; }
 
 /* ---------- Tablet / janelas medias ---------- */
 @media (max-width: 1024px) {
-  .hero__title { font-size: clamp(2.2rem, 8.5vw, 6rem); }
+  .hero__title { font-size: clamp(1.9rem, 7.6vw, 5.2rem); }
 
   .sobre { grid-template-columns: 260px minmax(0, 1fr); gap: 32px; }
   .traj__grid { grid-template-columns: minmax(0, 1fr) 260px; gap: 32px; }
@@ -464,7 +465,7 @@ section[id] { scroll-margin-top: 96px; }
   .section { padding: 80px 16px; }
   .section__title { margin-bottom: 40px; }
   .hero { padding: 100px 16px 0; }
-  .hero__title { font-size: clamp(2.4rem, 12vw, 4rem); }
+  .hero__title { font-size: clamp(1.6rem, 8.6vw, 3rem); }
 
   .hero__strip { grid-template-columns: 1fr; margin-top: 40px; }
   .cta { align-self: stretch; justify-content: space-between; }
