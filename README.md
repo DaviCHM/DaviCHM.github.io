@@ -1,6 +1,6 @@
 # DaviCHM.github.io
 
-Portfólio pessoal de **Davi Cagliari Homem de Mello**, estudante de Ciência da Computação no Insper (2025-2029). Ex-jogador profissional de Valorant (2021-2024, VCT).
+Portfólio pessoal de **Davi Cagliari Homem de Mello**, estudante de Ciência da Computação no Insper (2025-2028). Ex-jogador profissional de Valorant (2021-2024, VCT).
 
 Publicado em: **https://DaviCHM.github.io**
 
