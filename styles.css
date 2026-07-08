@@ -345,6 +345,16 @@ section[id] { scroll-margin-top: 96px; }
 }
 .proj__body p { color: var(--ink-soft); max-width: 66ch; }
 
+.proj__link {
+  display: inline-block;
+  margin-top: 14px;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  color: var(--ink-soft);
+  transition: color 0.3s var(--spring);
+}
+.proj__link:hover { color: var(--red); }
+
 /* ---------- Stack ---------- */
 .stackgrid {
   display: grid;
